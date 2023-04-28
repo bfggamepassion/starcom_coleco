@@ -1,0 +1,38 @@
+ BOSCONIAN 
+ Mastertronic 1987
+
+ CONTROLS : Keyboard, Kempston, Cursor
+ ----------------------------------------------------------------------
+ AIM : Your mission is to fly the only space craft available to
+ destroy the orbital Space Stations. This is the last chance for the
+ people of Earth, for their orbiting masters will never again allow
+ them another chance to regain their freedom. You must not fail!
+ 
+ GAMEPLAY : 
+ * Pick up barrels to gain extra fuel, indicated on the right of the
+  screen.
+ * Pick up delta wings to gain extra lves, indicated on the bottom of
+  the screen.
+ * Pick up bombs and use them to destroy enemy fighters and rockets,
+  the number of bombs you have is indicated on the bottom of the screen.
+ * Pick up the double-winged craft to gain an extra rear-facing laser,
+  indicated by the doors bottom left.
+ * Avoid rocks, explosions, other craft and mines. Shoot barrels, ships
+  and bombs to destroy them.
+ * Use the scanner, top right, to identify the position of the Stations.
+ * Shoot the centre of the Space Stations to destroy them. Shooting the
+  outside pods does not disable the Stations - be careful of their
+  missiles. Destroy all the Space Stations to complete the wave.
+ * The condition indicator tells you of any hostile fighters - these
+  are also indicated on the scan. The formation indicator tells you
+  the exact formation used by the hostile fighters. Use these
+  instruments to plan your tactics.
+ * When the docking indicator is on, as at the start of the game, you
+  may dock with motherships for protection. Picking up the miniature
+  motherships turns the indicator off. Docking with the indicator off
+  will send you to a different part of the screen.
+
+ NOW : An old fashioned shoot-em-up which is OK for a few minutes...
+ (the original arcade machine came out in 1981!)
+ ----------------------------------------------------------------------
+ KEYS : Redefinable

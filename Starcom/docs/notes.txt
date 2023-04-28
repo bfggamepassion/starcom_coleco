@@ -1,0 +1,9 @@
+1 base ennemi à détruire = 72*64 pixels
+Soit 9*8 caractères. Pour le scrolling 11*10 caractères
+--> 110 octets graphiques pour 1 base / 1 animation
+
+Pour pouvoir gérer les explosions partielles,
+il va falloir découpe en plusieurs blocs.
+
+Base ennemie verticale :
+

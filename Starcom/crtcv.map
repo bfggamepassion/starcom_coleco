@@ -1,0 +1,554 @@
+ASxxxx Linker V02.00 + NoICE + sdld,  page 1.
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+.	.ABS.                            0000   0000 =      0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  ---------------------------------   ------------------------
+            0000  .__.ABS.                         
+            0000  l__BSS                           
+            0000  l__CABS                          
+            0000  l__HEADER                        
+            0000  l__HEAP                          
+            0000  l__HOME                          
+            0000  l__OVERLAY                       
+            0000  s__HEADER                        
+            0000  s__HEADER0                       
+            0001  l__GSFINAL                       
+            0024  l__HEADER0                       
+            003E  l__GSINIT                        
+            025D  l__DATA                          
+            6E86  l__CODE                          
+            7000  s__DATA                          
+            725D  s__BSS                           
+            725D  s__CABS                          
+            725D  s__HEAP                          
+            725D  s__OVERLAY                       
+            73EB  _spinner_1                       
+            73EC  _spinner_2                       
+            8048  s__CODE                          
+            EECE  s__GSINIT                        
+            EECE  s__HOME                          
+            EF0C  s__GSFINAL                       
+
+ASxxxx Linker V02.00 + NoICE + sdld,  page 2.
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+_CODE                              8048   6E86 =  28294. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  ---------------------------------   ------------------------
+            80B5  keypad_table                     
+            8147  _fondRadar                       
+            81AF  _life                            
+            81B3  _tankAnimationV                  
+            81E3  _tankAnimationH                  
+            8213  _PATTERNRLE                      
+            8689  _COLORRLE                        
+            885E  _SPATTERNRLE                     
+            8D5E  _levels_Pointer                  
+            8D6E  _level9                          
+            8D87  _level7                          
+            8DA0  _level6                          
+            8DB9  _level5                          
+            8DD2  _level4                          
+            8DEB  _level3                          
+            8E04  _level2                          
+            8E11  _level1                          
+            8E1B  _get_char_protected              
+            8E1B  _get_char_protected_start        
+            8E47  _get_char_protected_end          
+            8E47  _put_char_protected              
+            8E47  _put_char_protected_start        
+            8E71  _put_char_protected_end          
+            8E71  _put_frame_crop_H24              
+            8E71  _put_frame_crop_H24_start        
+            8FEB  _getFreeSprite                   
+            8FEB  _getFreeSprite_start             
+            8FEB  _put_frame_crop_H24_end          
+            9043  _createEnnemyBullet              
+            9043  _createEnnemyBullet_start        
+            9043  _getFreeSprite_end               
+            91EB  _createEnnemyBullet_end          
+            91EB  _initAlien                       
+            91EB  _initAlien_start                 
+            922C  _initAlien_end                   
+            922C  _reinitAlien                     
+            922C  _reinitAlien_start               
+            9337  _createAlien                     
+            9337  _createAlien_start               
+            9337  _reinitAlien_end                 
+            943F  _createAlien_end                 
+            943F  _updateAlien                     
+            943F  _updateAlien_start               
+            964A  _gererAIAlien                    
+            964A  _gererAIAlien_start              
+            964A  _updateAlien_end                 
+            9887  _declencherAlien                 
+            9887  _declencherAlien_start           
+            9887  _gererAIAlien_end                
+            9958  _declencherAlien_end             
+ASxxxx Linker V02.00 + NoICE + sdld,  page 3.
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+_CODE                              8048   6E86 =  28294. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  ---------------------------------   ------------------------
+            9958  _initNomoveObject                
+            9958  _initNomoveObject_start          
+            996E  _createNomoveObject              
+            996E  _createNomoveObject_start        
+            996E  _initNomoveObject_end            
+            9A18  _createNomoveObject_end          
+            9A18  _updateNomoveObject              
+            9A18  _updateNomoveObject_start        
+            9B0C  _gererAINoMoveObject             
+            9B0C  _gererAINoMoveObject_start       
+            9B0C  _updateNomoveObject_end          
+            9B1E  _declencherNoMoveObject          
+            9B1E  _declencherNoMoveObject_start    
+            9B1E  _gererAINoMoveObject_end         
+            9BBB  _declencherNoMoveObject_end      
+            9BBB  _initEnnemyBullet                
+            9BBB  _initEnnemyBullet_start          
+            9BD5  _initEnnemyBullet_end            
+            9BD5  _updatebullet                    
+            9BD5  _updatebullet_start              
+            9DA9  _initShoot                       
+            9DA9  _initShoot_start                 
+            9DA9  _updatebullet_end                
+            9DF7  _initShoot_end                   
+            9DF7  _renderMotherShipSprites         
+            9DF7  _renderMotherShipSprites_start   
+            A2E3  _renderMotherShipScrollObj       
+            A2E3  _renderMotherShipScrollObj_start 
+            A2E3  _renderMotherShipSprites_end     
+            A407  _renderHUD                       
+            A407  _renderHUD_start                 
+            A407  _renderMotherShipScrollObj_end   
+            A4A8  _renderHUD_end                   
+            A4C0  _renderPlayerOnRadar             
+            A4C0  _renderPlayerOnRadar_start       
+            A549  _initRadar                       
+            A549  _initRadar_start                 
+            A549  _renderPlayerOnRadar_end         
+            A610  _initRadar_end                   
+            A610  _renderRadar                     
+            A610  _renderRadar_start               
+            A628  _renderRadar_end                 
+            A628  _renderScrollObj                 
+            A628  _renderScrollObj_start           
+            A64D  _renderScrollObj_end             
+            A64D  _renderScrollSprites             
+            A64D  _renderScrollSprites_start       
+            A672  _initScrollObj                   
+            A672  _initScrollObj_start             
+            A672  _renderScrollSprites_end         
+            A69D  _getFreeScrollObj                
+ASxxxx Linker V02.00 + NoICE + sdld,  page 4.
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+_CODE                              8048   6E86 =  28294. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  ---------------------------------   ------------------------
+            A69D  _getFreeScrollObj_start          
+            A69D  _initScrollObj_end               
+            A6BE  _getFreeScrollObj_end            
+            A6BE  _initSprites                     
+            A6BE  _initSprites_start               
+            A728  _initPlayer                      
+            A728  _initPlayer_start                
+            A728  _initSprites_end                 
+            A758  _getFreeShoot                    
+            A758  _getFreeShoot_start              
+            A758  _initPlayer_end                  
+            A7AB  _detectCarShoot                  
+            A7AB  _detectCarShoot_start            
+            A7AB  _getFreeShoot_end                
+            A885  _detectCarShoot_end              
+            A885  _moveShoot                       
+            A885  _moveShoot_start                 
+            A976  _isCollision                     
+            A976  _isCollision_start               
+            A976  _moveShoot_end                   
+            AA0F  _desactivatePod                  
+            AA0F  _desactivatePod_start            
+            AA0F  _isCollision_end                 
+            AB7D  _checkCollision                  
+            AB7D  _checkCollision_start            
+            AB7D  _desactivatePod_end              
+            B529  _changePlayer                    
+            B529  _changePlayer_start              
+            B529  _checkCollision_end              
+            B550  _changePlayer_end                
+            B550  _initStarfield                   
+            B550  _initStarfield_start             
+            B578  _initStarfield_end               
+            B578  _moveStarfield                   
+            B578  _moveStarfield_start             
+            B776  _moveStarfield_end               
+            B776  _setLevel                        
+            B776  _setLevel_start                  
+            B7B3  _initLevel                       
+            B7B3  _initLevel_start                 
+            B7B3  _setLevel_end                    
+            BA66  _initLevel_end                   
+            BA66  _main_loop                       
+            BA66  _main_loop_start                 
+            BE43  _LoadPatternAndshowAScreenDan0   
+            BE43  _LoadPatternAndshowAScreenDan0_st
+            BE43  _main_loop_end                   
+            BE94  _LoadPatternAndshowAScreenDan0_en
+            BE94  _makeAPause                      
+            BE94  _makeAPause_start                
+            BEB1  _initData                        
+ASxxxx Linker V02.00 + NoICE + sdld,  page 5.
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+_CODE                              8048   6E86 =  28294. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  ---------------------------------   ------------------------
+            BEB1  _initData_start                  
+            BEB1  _makeAPause_end                  
+            BEEE  _initData_end                    
+            BEEE  _secretCode                      
+            BEEE  _secretCode_start                
+            BEF2  _main                            
+            BEF2  _main_start                      
+            BEF2  _secretCode_end                  
+            C47B  _main_end                        
+            C662  _nmi                             
+            C662  _nmi_start                       
+            C75A  _nmi_end                         
+            CC0D  _snd_table                       
+            CC5D  _music                           
+            CC63  _music_go                        
+            CC69  _music_intro                     
+            CC71  _SPLASH0_PATTERNDAN0             
+            CEB2  _SPLASH0_COLORDAN0               
+            D057  _SPLASH0_NAMEDAN0                
+            D383  _SPLASH1_PATTERNDAN0             
+            D638  _SPLASH1_COLORDAN0               
+            D7BC  _SPLASH1_NAMEDAN0                
+            DACD  _SPLASH2_PATTERNDAN0             
+            DCBA  _SPLASH2_COLORDAN0               
+            DE10  _SPLASH2_NAMEDAN0                
+            E13E  _collisionv                      
+            E14A  _collisionh                      
+            E156  _pod_position                    
+            E16E  _tiles_Pointer                   
+            E174  _tileBlank                       
+            E1ED  _motherShipV1                    
+            E25B  _motherShipH1                    
+            E2D4  _tiles_Init                      
+            E2E0  _TITLE_PATTERNDAN0               
+            E534  _TITLE_COLORDAN0                 
+            E720  _TITLE_NAMEDAN0                  
+            E998  _print_at                        
+            E9AF  _dan0alt                         
+            E9B5  dan0alt                          
+            EA14  _rle2vram                        
+            EA3F  __divsint_rrx_s                  
+            EA48  __divschar_rrx_s                 
+            EA4F  __div8                           
+            EA4F  __divschar_rrx_hds               
+            EA53  __div_signexte                   
+            EA57  __div16                          
+            EA57  __divsint_rrx_hds                
+            EA7D  __get_remainder                  
+            EA87  _memcpyb                         
+            EA95  _put_vram                        
+            EAAA  _screen_mode_2_bitmap            
+ASxxxx Linker V02.00 + NoICE + sdld,  page 6.
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+_CODE                              8048   6E86 =  28294. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  ---------------------------------   ------------------------
+            EAE5  _put_frame0                      
+            EB10  _next_music                      
+            EB1B  _play_music                      
+            EB25  _update_music                    
+            EBE5  _stop_music                      
+            EC0E  _disable_nmi                     
+            EC16  _center_string                   
+            EC3B  _set_snd_table                   
+            EC3F  set_snd_table                    
+            EC50  _screen_on                       
+            EC58  _fill_vram                       
+            EC6A  _get_char                        
+            EC80  __divuint_rrx_s                  
+            EC88  __divuchar_rrx_s                 
+            EC8F  __divu8                          
+            EC8F  __divuchar_rrx_hds               
+            EC92  __divu16                         
+            EC92  __divuint_rrx_hds                
+            ECC4  _play_sound                      
+            ECD5  _load_patternrle                 
+            ECE4  _vdp_out                         
+            ECED  _cls                             
+            ECF9  _put_frame                       
+            ED11  _rnd                             
+            ED1D  writevdpreg1                     
+            ED23  default_set_mode_2               
+            ED29  default_vdp_reg                  
+            ED3A  _strlen0                         
+            ED48  _enable_nmi                      
+            ED53  _stop_sound                      
+            ED70  _delay                           
+            ED9A  rnd1                             
+            EDC9  vdpwrite                         
+            EDD2  _put_char                        
+            EDE5  _rnd_byte                        
+            EDF3  _duplicate_pattern               
+            EE35  _str                             
+            EE4B  calc_offset                      
+            EE56  _screen_off                      
+            EE5E  _pause                           
+            EE8B  _get_random                      
+            EEA0  _utoa0                           
+            EEC2  absdiff_max_min                  
+
+ASxxxx Linker V02.00 + NoICE + sdld,  page 7.
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+_HOME                              EECE   0000 =      0. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  ---------------------------------   ------------------------
+ASxxxx Linker V02.00 + NoICE + sdld,  page 8.
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+_GSINIT                            EECE   003E =     62. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  ---------------------------------   ------------------------
+            EECE  gsinit                           
+
+ASxxxx Linker V02.00 + NoICE + sdld,  page 9.
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+_GSFINAL                           EF0C   0001 =      1. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  ---------------------------------   ------------------------
+ASxxxx Linker V02.00 + NoICE + sdld,  page 10.
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+_DATA                              7000   025D =    605. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  ---------------------------------   ------------------------
+            7000  _buffer32                        
+            7020  snd_addr                         
+            702B  snd_areas                        
+            7068  _no_nmi                          
+            7069  _vdp_status                      
+            706A  _nmi_flag                        
+            706B  _joypad_1                        
+            706C  _keypad_1                        
+            706D  _joypad_2                        
+            706E  _keypad_2                        
+            706F  spinner_enabled                  
+            7070  _difficulty                      
+            7071  _mTirDirigeTimer                 
+            7072  _mTirDroitTimer                  
+            7074  _genEnnTimer                     
+            7076  _genEnnShootTimer                
+            7077  _tankAnimationSpeed              
+            7078  _odd                             
+            7079  _soundonoff                      
+            707A  _mynmi                           
+            707B  _nmiRenderRadar                  
+            707C  _nmiRenderScrollObj              
+            707D  _nmiMoveStarfield                
+            707E  _nmiInitRadar                    
+            707F  _nmiDetectCarShoot               
+            7080  _workflow                        
+            7081  _nb_source                       
+            7082  _p_source                        
+            7083  _tankAnimationPointer            
+            7084  _traceSprite                     
+            7085  _refx                            
+            7087  _refy                            
+            7089  _currentNmi                      
+            708A  _tmp                             
+            708B  _radarPosx                       
+            708C  _radarPosy                       
+            708D  _radarOldCar                     
+            708E  _currentStarAnim                 
+            708F  _cpt                             
+            7091  _motherShipVisible               
+            7092  _timer                           
+            7094  _oddNmi                          
+            7095  _nbMothershipLevel               
+            7096  _currentLevel                    
+            7097  _currentLevelAff                 
+            7098  _bsprites                        
+            7118  _scrollObj                       
+            7138  _stars                           
+            7142  _player                          
+            714E  _shoot                           
+ASxxxx Linker V02.00 + NoICE + sdld,  page 11.
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+_DATA                              7000   025D =    605. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  ---------------------------------   ------------------------
+            7166  _ennemyBullet                    
+            7184  _alien                           
+            71B6  _nomoveObject                    
+            71C0  _matrix                          
+            71C9  _matrixShoot                     
+            71D6  sprite_count                     
+            71D7  _sprites                         
+
+ASxxxx Linker V02.00 + NoICE + sdld,  page 12.
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+_BSS                               725D   0000 =      0. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  ---------------------------------   ------------------------
+ASxxxx Linker V02.00 + NoICE + sdld,  page 13.
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+_HEAP                              725D   0000 =      0. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  ---------------------------------   ------------------------
+ASxxxx Linker V02.00 + NoICE + sdld,  page 14.
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+_HEADER                            0000   0000 =      0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  ---------------------------------   ------------------------
+ASxxxx Linker V02.00 + NoICE + sdld,  page 15.
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+_HEADER0                           0000   0024 =     36. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  ---------------------------------   ------------------------
+ASxxxx Linker V02.00 + NoICE + sdld,  page 16.
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+_OVERLAY                           725D   0000 =      0. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  ---------------------------------   ------------------------
+ASxxxx Linker V02.00 + NoICE + sdld,  page 17.
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+_CABS                              725D   0000 =      0. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  ---------------------------------   ------------------------
+ASxxxx Linker V02.00 + NoICE + sdld,  page 18.
+
+Files Linked                              [ module(s) ]
+
+../crtcv.rel                              [ crt0 ]
+charset.rel                               [ charset ]
+levels.rel                                [ levels ]
+main.rel                                  [ main ]
+music.rel                                 [ sounds ]
+splash0_dan0.rel                          [  ]
+splash1_dan0.rel                          [  ]
+splash2_dan0.rel                          [  ]
+tiles.rel                                 [ tiles ]
+title_dan0.rel                            [  ]
+
+
+Libraries Linked                          [ object file ]
+
+../getput.lib                             [ gp9print ]
+../comp.lib                               [ dan0alt ]
+../cvlib.lib                              [ rle2vram ]
+c:\sdcc\bin\..\lib\z80/z80.lib            [ divsigned.rel ]
+../cvlib.lib                              [ memcpyb ]
+../cvlib.lib                              [ vdp2 ]
+../getput.lib                             [ gpscrmo0 ]
+../getput.lib                             [ gp9fram0 ]
+../cvlib.lib                              [ music ]
+../cvlib.lib                              [ nmi ]
+../getput.lib                             [ gp9centr ]
+../cvlib.lib                              [ sndtbl ]
+../cvlib.lib                              [ scrn_on ]
+../cvlib.lib                              [ vdp1 ]
+../getput.lib                             [ gpascii1 ]
+c:\sdcc\bin\..\lib\z80/z80.lib            [ divunsigned.rel ]
+../cvlib.lib                              [ sound ]
+../getput.lib                             [ gppatrle ]
+../cvlib.lib                              [ vdp0 ]
+../getput.lib                             [ gpcls ]
+../getput.lib                             [ gpfram0 ]
+../getput.lib                             [ gprnd0 ]
+../cvlib.lib                              [ writevdpreg1 ]
+../getput.lib                             [ gpscrmo2 ]
+../getput.lib                             [ gpstrlen ]
+../cvlib.lib                              [ sprites2 ]
+../cvlib.lib                              [ nmi2 ]
+../cvlib.lib                              [ ssound ]
+../cvlib.lib                              [ delay ]
+../getput.lib                             [ gprnd2 ]
+../cvlib.lib                              [ vdpwrite ]
+../getput.lib                             [ gpascii0 ]
+../getput.lib                             [ gprnd1 ]
+../cvlib.lib                              [ vdppat1 ]
+../getput.lib                             [ gpstr ]
+../getput.lib                             [ gpcaloff ]
+../cvlib.lib                              [ scrn_off ]
+../getput.lib                             [ gppause ]
+../cvlib.lib                              [ get_rand ]
+../getput.lib                             [ gputoa0 ]
+../getput.lib                             [ gprnd5 ]
+
+ASxxxx Linker V02.00 + NoICE + sdld,  page 19.
+
+User Base Address Definitions
+
+_CODE = 0x8048
+_DATA = 0x7000
+
+
